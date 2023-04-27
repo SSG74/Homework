@@ -9,6 +9,7 @@
 # --- b'class' - используйте маркировку b''
 # --- используйте списки и циклы, не дублируйте функции
 
+
 one_wld = 'class'
 two_wld = 'function'
 three_wld = 'method'
