@@ -1,6 +1,7 @@
 # задача 1
 # время красного сигнала 7 секунд
 # время желтого сигнала 2 секунды
+from time import sleep
 class TrafficLight:
     __color = ['красный', 'желтый', 'зеленый']
     def running(self, time_green):
@@ -13,7 +14,7 @@ class TrafficLight:
 
 time_3 = float(input('введите время зеленого сигнала: '))
 
-from time import sleep
+
 
 color = TrafficLight()
 print(f'светофор включен')

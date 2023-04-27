@@ -1,10 +1,10 @@
 
-num = int(input('Введите число: '))
+numnum = int(input('Введите число: '))
 rever_num = 0
 def recursive_reverse(num):
     global rever_num
 
-    if num < 1:
+    if num == 0:
         return num
     else:
         digit = num % 10
@@ -12,7 +12,7 @@ def recursive_reverse(num):
         recursive_reverse(num // 10)
     return rever_num
 
-rever_num = recursive_reverse(num)
+rever_num = recursive_reverse(numnum)
 #print(f'"Обратное" число = {rever_num}')
 
 def len_int(num):
@@ -25,9 +25,9 @@ def len_int(num):
         len_ += 1
     return (len_)
 
-a = len_int(num)
+a = len_int(numnum)
 b = len_int(rever_num)
 if a != b:
     print(f'"обратное" число: {rever_num:0{a}}')
 else:
-    print(f'"Обратное" число = {rever_num}') 
+    print(f'"Обратное" число = {rever_num}')
