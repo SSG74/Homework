@@ -28,6 +28,6 @@ class Matrix:
 
 M = Matrix([[1, 2, 5], [3, 4, 6]])
 N = Matrix([[2, 2, 3], [3, 3, 4]])
-print(str(M))
-print(str(N))
-print(str(M.__add__(N)))
+print(M)
+print(N)
+print(M + N)
